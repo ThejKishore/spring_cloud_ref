@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'cloud'
+include "cloud-config-server"
+include "cloud-config-client"
+
