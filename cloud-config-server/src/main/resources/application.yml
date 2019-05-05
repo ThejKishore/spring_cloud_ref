@@ -1,1 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          search-paths:
+  output:
+    ansi:
+      enabled: always
 
+greet:
+  msg: 'hello world'
