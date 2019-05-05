@@ -156,3 +156,4 @@ nbdist/
 .gradle
 .gradle/*
 
+/.gradle/*
