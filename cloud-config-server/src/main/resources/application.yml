@@ -8,5 +8,12 @@ spring:
     ansi:
       enabled: always
 
+
 greet:
   msg: 'hello world'
+management:
+  endpoint:
+    info:
+      enabled: true
+    health:
+      enabled: true
